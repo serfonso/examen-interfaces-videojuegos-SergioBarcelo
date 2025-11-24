@@ -1,7 +1,7 @@
-import { juegos } from "../../public/data/info";
+import { juegos } from "../../public/data/info.js";
 
 export function getJuego(id) {
-    return Promise((resolve, reject) => {
+    return new Promise((resolve, reject) => {
         setTimeout(() => {
             const juego = juegos.find( j => j.id === id)
 
