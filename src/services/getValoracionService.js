@@ -10,6 +10,6 @@ export function getValoracion(id) {
             } else {
                 reject (`la valoracion del juego con id ${id} no existe`)
             }
-        }, 800);
+        }, 900);
     })
 }
